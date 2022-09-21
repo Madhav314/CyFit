@@ -1,0 +1,105 @@
+
+.App {
+  text-align: center;
+ 
+}
+
+.App-body{
+  background-color:#0F4C75;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+.heading{
+  color:#444;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.container{
+  display: grid;
+  gap:15px;
+  align-items:flex-start;
+  padding:5px 5%;
+}
+.container .main-video{
+  background:#fff;
+  border-radius: 5px;
+  padding:10px;
+}
+
+.container .main-video video{
+  width:100%;
+  border-radius: 5px;
+}
+
+.container .main-video .title{
+  color:#333;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom:15x;
+}
+
+.container .video-list{
+  background: #fff;
+  border-radius:5px;
+  height: 520px;
+  overflow-y: scroll;
+  align-items: center;
+}
+.container.video-list::-webkit-scrollbar{
+  width: 8px;
+
+}
+
+.container.video-list::-webkit-scrollbar-track{
+  background:#ccc;
+  border-radius: 50px;
+  
+}
+
+.container.video-list::-webkit-scrollbar-thumb{
+  background:#666;
+  border-radius: 50px;
+  
+}
+
+.container .video-list .vid video{
+  border-radius: 5px;
+  align-items: center;
+}
+
+.container .video-list .vid{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f7f7f7;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rbga(0,0,0,.1);
+  cursor:pointer;
+}
+
+.container .video-list .vid:hover{
+  background: #eee;
+
+}
+
+
+
+.container .video-list .vid.active .title{
+  background: #fafafa; 
+}
+
+.container .video-list .vid .title{
+  background: #333; 
+  font-size: 17px;
+}
+

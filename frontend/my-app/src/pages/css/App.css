@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+ 
+}
+.App-button{
+
+width: 359px;
+height: 94px;
+left: 221px;
+top: 189px;
+
+background: #BBE1FA;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+
+  
+}
+.App-profile {
+   height: 10vmin;
+   pointer-events: none;
+}
+.App-footer{
+  background-color: #3282B8;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+}
+.App-email{
+  position: absolute;
+  left : 675px;
+  height: 15vmin;
+}
+.App-twitter{
+  position: absolute;
+  left : 525px;
+  height: 15vmin;
+}
+.App-instagram{
+  position: absolute;
+  left : 600px;
+  margin-top: 10px;
+  height: 12vmin;
+}
+.App-youtube{
+  position: absolute;
+  left : 450px;
+  height: 15vmin;
+}
+.App-header {
+  background-color: #3282B8;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+}
+.App-body{
+  background-color:#0F4C75;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+.App-link {
+  color: #7e7e7e;
+}
+
+.App-button{
+  width: 359px;
+  height: 94px;
+  left: 221px;
+  top: 189px;
+
+  background: #BBE1FA;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+#abs{
+  transition: .4s;
+}
+#abs:hover{
+  transform: scale(1.0,.99);
+}
+#chest{
+  transition: .4s;
+}
+#chest:hover{
+  transform: scale(1.0,.99);
+}
+#shoulder{
+  transition: .4s;
+}
+#shoulder:hover{
+  transform: scale(1.0,.99);
+}
+#bicep{
+  transition: .4s;
+}
+#bicep:hover{
+  transform: scale(1.0,.99);
+}
+#forearm{
+  transition: .4s;
+}
+#forearm:hover{
+  transform: scale(1.0,.99);
+}
+#sideabs{
+  transition: .4s;
+}
+#sideabs:hover{
+  transform: scale(1.0,.99);
+}
+#quad{
+  transition: .4s;
+}
+#quad:hover{
+  transform: scale(1.0,.99);
+}
+#knee{
+  transition: .4s;
+}
+#knee:hover{
+  transform: scale(1.0,.99);
+}
+#calf{
+  transition: .4s;
+}
+#calf:hover{
+  transform: scale(1.0,.99);
+}
+
+

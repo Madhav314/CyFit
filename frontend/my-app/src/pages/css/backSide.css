@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-body{
+  background-color:#0F4C75;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+#ltricep{
+  transition: .4s;
+}
+#ltricep:hover{
+  transform: scale(1.02,1.02);
+}
+
+#rtricep{
+  transition: .4s;
+}
+#rtricep:hover{
+  transform: scale(.98,1.02);
+}
+#trapezius{
+  transition: .4s;
+}
+#trapezius:hover{
+  transform: scale(1,0.96);
+}
+#lteresmajor{
+  transition: .4s;
+}
+#lteresmajor:hover{
+  transform: scale(1,0.98);
+}
+
+#rteresmajor{
+  transition: .4s;
+}
+#rteresmajor:hover{
+  transform: scale(1,0.98);
+}
+#llat{
+  transition: .4s;
+}
+#llat:hover{
+  transform: scale(1,.98);
+}
+
+#ldelt{
+  transition: .4s;
+}
+#ldelt:hover{
+  transform: scale(1,.97);
+}
+
+#rlat{
+  transition: .4s;
+}
+#rlat:hover{
+  transform: scale(1,.98);
+}
+#rdelt{
+  transition: .4s;
+}
+#rdelt:hover{
+  transform: scale(1,.98);
+}
+#lowerback{
+  transition: .4s;
+}
+#lowerback:hover{
+  transform: scale(1,.99);
+}
+#glute{
+  transition: .4s;
+}
+#glute:hover{
+  transform: scale(1,.99);
+}
+
+#lham{
+  transition: .4s;
+}
+#lham:hover{
+  transform: scale(1,.99);
+}
+
+#rham{
+  transition: .4s;
+}
+#rham:hover{
+  transform: scale(1,.99);
+}
+#lcalf{
+  transition: .4s;
+}
+#lcalf:hover{
+  transform: scale(1,.99);
+}
+#rcalf{
+  transition: .4s;
+}
+#rcalf:hover{
+  transform: scale(1,.99);
+}

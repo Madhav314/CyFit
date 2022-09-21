@@ -1,0 +1,19 @@
+<body className ="main-body">
+            <Form className="main-form">
+            <Button align className="main-button1" onClick ={workoutPage}>Workout</Button>
+            <Button className="main-button2" onClick ={dietPage}>Diet</Button>
+            <img src={clipboard} className="main-clipboard" alt="clipboard" />
+            <img src={lifestyle} className="main-lifestyle" alt="lifestyle"/>
+            </Form>
+         
+        
+        </body>
+        <footer className="App-footer">
+            <div>
+            <img src={youtube} className="App-youtube" alt="youtube" />
+            <img src={instagram} className="App-instagram" alt="instagram" />
+            <img src={email} className="App-email" alt="email" />
+            <img src={twitter} className="App-twitter" alt="twitter" />
+            
+            </div>
+        </footer>

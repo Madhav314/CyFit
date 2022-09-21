@@ -1,0 +1,54 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  only:
+    refs:
+      - main
+    changes:
+      - backend/Final/**/*
+  stage: build
+  tags:
+    - backend
+  script:
+    - cd backend/Final/
+    - mvn package -B
+
+
+test:
+  only:
+    refs:
+      - main
+    changes:
+      - backend/Final/**/*
+  stage: test
+  tags:
+    - backend
+  script:
+    - cd backend/Final/
+    - mvn test
+  artifacts:
+    paths:
+      - backend/Final/target/*.jar
+
+
+deploy:
+  only:
+    refs:
+      - main
+    changes:
+      - backend/Final/**/*
+  stage: deploy
+  tags:
+   - backend
+  script:
+    - cd backend/Final/
+    - mvn package
+    - cd target
+    - sudo mv *.jar web-demo.jar
+    - sudo systemctl stop system-web-demo
+    - sudo systemctl start system-web-demo
+
+
